@@ -40,7 +40,7 @@ Angel Insight uses a sequential, multi-agent pipeline enforcing deterministic, s
 - **Language:** Python
 - **LLM Engine:** Google Gemini (Gemini-3-Flash-Preview)
 - **Search Retrieval:** Tavily API
-- **Data Validation:** Pydantic (If you aren't using typed schemas with LLMs, what are you doing?)
+- **Data Validation:** Pydantic
 - **Frontend:** Streamlit (For ultra-fast UI iteration)
 - **Resilience:** Custom `@retry_on_demand_error` decorators utilizing regex to gracefully catch Google's 503/429 rate limit errors, parse the exact wait time, and pause execution instead of letting the pipeline crash mid-parse.
 
