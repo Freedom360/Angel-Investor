@@ -33,6 +33,8 @@ Angel Insight uses a sequential, multi-agent pipeline enforcing deterministic, s
 
 ![alt text](angel_investor_diagram.png)
 
+![alt text](airbnb_output.png)
+
 ## 🛠 Tech Stack (The MVP Build)
 
 - **Language:** Python
